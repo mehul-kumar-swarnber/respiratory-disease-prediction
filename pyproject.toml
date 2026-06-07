@@ -11,3 +11,6 @@ dependencies = [
     "plotly",
     "numpy",
 ]
+
+[tool.poetry]
+package-mode = false
