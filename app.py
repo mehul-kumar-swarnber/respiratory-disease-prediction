@@ -32,14 +32,18 @@ st.markdown("""
 <style>
 /* ── 1. FORCE LIGHT THEME on every surface ─────────────────────────────── */
 html, body { color-scheme: light !important; background:#f5f7fa !important; }
-
+.block-container {
+    padding-top: 1rem !important;
+}
 .stApp,
 [data-testid="stAppViewContainer"],
 [data-testid="stMain"],
 .main,
 .block-container { background-color:#f5f7fa !important; color:#1a202c !important; }
 
-[data-testid="stHeader"],
+[data-testid="stHeader"] {
+    height: 2.5rem;
+},
 [data-testid="stToolbar"],
 [data-testid="stDecoration"] { background-color:#f5f7fa !important; }
 
@@ -90,6 +94,7 @@ i.fas, i.far, i.fab, i.fa, i.fa-solid, i.fa-regular, i.fa-brands,
 [data-testid="stFileUploader"] {
   border: 2px dashed #bee3f8 !important;
   border-radius: 12px !important;
+  padding: 1.5rem !important;
 }
 [data-testid="stFileUploader"] small,
 [data-testid="stFileUploader"] span,
