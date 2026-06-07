@@ -1,0 +1,13 @@
+[project]
+name = "respiratory-disease-prediction"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit",
+    "tensorflow-cpu==2.17.0",
+    "librosa",
+    "opencv-python-headless",
+    "pandas",
+    "plotly",
+    "numpy",
+]
