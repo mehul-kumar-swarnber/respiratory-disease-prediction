@@ -32,9 +32,7 @@ st.markdown("""
 <style>
 /* ── 1. FORCE LIGHT THEME on every surface ─────────────────────────────── */
 html, body { color-scheme: light !important; background:#f5f7fa !important; }
-.block-container {
-    padding-top: 1rem !important;
-}
+
 .stApp,
 [data-testid="stAppViewContainer"],
 [data-testid="stMain"],
